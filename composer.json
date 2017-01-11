@@ -1,0 +1,26 @@
+{
+  "name": "mario-legenda/ebay-finding-api",
+  "description": "API for Ebay Finding API",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mario Skrlec",
+      "email": "whitepostmail@gmail.com"
+    }
+  ],
+
+  "require-dev": {
+    "phpunit/phpunit": "4.8.*",
+    "raveren/kint": "^1.0",
+    "twig/twig": "~1.0"
+  },
+
+  "autoload": {
+    "psr-0": {
+      "FindingAPI": "src/",
+      "Demo": "demo/"
+    }
+  }
+
+}
